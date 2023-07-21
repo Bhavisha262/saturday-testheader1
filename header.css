@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0; 
+    background-image: none;
+    
+}
+
+#header{
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.logo1{
+    
+    position: absolute;
+    z-index: 7;
+    left: 13px;
+    display: flex;
+    gap: 50px;
+    top: 20px;
+    margin: 0px 0px;
+
+}
+
+.text1{
+    position: absolute;
+    z-index: 5;
+    top: 40px;
+    margin: 0px 0px;
+}
+a:link{
+    color:aquamarine;
+}
+a:hover{
+    color: rgb(112, 37, 10);
+    background-color: bisque;
+    border: 1px solid black;
+   
+}
+
+h1{
+    position: relative;
+    left: 430px;
+    display: flex;
+    gap: 50px;
+    bottom: 30px;
+    right: 10px;
+    color: antiquewhite;
+   
+}
+.icon{
+    
+    position: absolute;
+    z-index: 7;
+    display: flex;
+    gap: 40px;
+    right: 20px;
+    top: 30px;
+    
+    
+
+}
